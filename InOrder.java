@@ -5,5 +5,15 @@
 public class InOrder {
 	public static void main (String[] args) {
 		//// Write your code here
+		int number = (int) (Math.random() * 10);
+		int oldNumber = number;
+		System.out.println (number);
+		number = (int) (Math.random() * 10);
+		while (number >= oldNumber) {
+			System.out.println (number);
+			oldNumber = number;
+			number = (int) (Math.random() * 10);
+		}
+
 	}
 }
