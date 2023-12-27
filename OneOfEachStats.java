@@ -60,6 +60,8 @@ public class OneOfEachStats {
 		numGirls = 0;
 		}
 
+		double average = (double) totalChild / T;
+
 		String mostCommon = "";
 		if (twoChild >= threeChild && twoChild >= fourplusChild){
 			mostCommon = "2.";
@@ -71,8 +73,8 @@ public class OneOfEachStats {
 			mostCommon = "4 or more.";
 		}
 
-		double eve = (double)totalChild / T ;
-		System.out.println ("Avarage : " + eve + " children to get at least one of each gender.");
+
+		System.out.println ("Avarage : " + average + " children to get at least one of each gender.");
 		System.out.println ("Number of families with 2 children: " + twoChild);
 		System.out.println ("Number of families with 3 children: " + threeChild);
 		System.out.println ("Number of families with 4 or more children: " + fourplusChild);
