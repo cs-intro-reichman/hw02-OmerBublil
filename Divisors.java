@@ -10,7 +10,7 @@ public class Divisors {
 			if (num % i == 0){
 			System.out.println (i);
 		}
-			i++;
+			i++; // #feedback - please note the indentation here.
 
 					}
 	}
