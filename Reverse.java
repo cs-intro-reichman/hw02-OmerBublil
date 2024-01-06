@@ -13,6 +13,7 @@ public class Reverse {
 			System.out.print(word.charAt(i));
 			i--;
 		}
+		// #feedback - the "if" is redundant here, using "middle = (l-1)/2" will work in both scenarios.
 		if (l % 2 == 0){
 			middle = l / 2 - 1;
 		}
