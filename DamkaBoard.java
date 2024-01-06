@@ -7,7 +7,7 @@ public class DamkaBoard {
 		int n = Integer.parseInt (args [0]);
 		for (int i = 0 ; i < n ; i++){
 			for (int j = 0 ; j < n ; j++){
-				if (i == 0 || i % 2 == 0){
+				if (i == 0 || i % 2 == 0){ // #feedback - checking that i == 0 is not needed, since 0 % 2 == 0 is true.
 					System.out.print ("* ");
 				}
 				else {
